@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Andreas Manessinger ~ The Daily Photography, one image per day since fall 2006</title>
+	<link>http://manessinger.com</link>
+	<description></description>
+	<pubDate>Tue, 31 Jul 2018 16:18:39 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://manessinger.com</wp:base_site_url>
+	<wp:base_blog_url>http://manessinger.com</wp:base_blog_url>
+
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[amanessinger]]></wp:author_login><wp:author_email><![CDATA[xxx@yyyyy.com]]></wp:author_email><wp:author_display_name><![CDATA[andreas]]></wp:author_display_name><wp:author_first_name><![CDATA[Andreas]]></wp:author_first_name><wp:author_last_name><![CDATA[Manessinger]]></wp:author_last_name></wp:author>
+
+	<wp:category>
+		<wp:term_id>704</wp:term_id>
+		<wp:category_nicename><![CDATA[mitakon-speedmaster-250-95]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Mitakon Speedmaster 25/0.95]]></wp:cat_name>
+	</wp:category>
+	<wp:tag>
+		<wp:term_id>9</wp:term_id>
+		<wp:tag_slug><![CDATA[austria]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Austria]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>781</wp:term_id>
+		<wp:tag_slug><![CDATA[kurpark-oberlaa]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kurpark Oberlaa]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>778</wp:term_id>
+		<wp:tag_slug><![CDATA[olympus-pen-f]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Olympus PEN-F]]></wp:tag_name>
+	</wp:tag>
+	<wp:term>
+		<wp:term_id><![CDATA[9]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[austria]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Austria]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[781]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[kurpark-oberlaa]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Kurpark Oberlaa]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[778]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[olympus-pen-f]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Olympus PEN-F]]></wp:term_name>
+	</wp:term>
+
+	<generator>https://wordpress.org/?v=4.9.7</generator>
+
+	<item>
+		<title>3817 - The Garden</title>
+		<link>http://manessinger.com/2017/04/3817-the-garden.html</link>
+		<pubDate>Sun, 02 Apr 2017 18:00:03 +0000</pubDate>
+		<dc:creator><![CDATA[amanessinger]]></dc:creator>
+		<guid isPermaLink="false">http://manessinger.com/?p=14903</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="container">
+<div class="center"><a target="_blank" href="http://manessinger.com/display.php/1024x1024/2016/20160925_085630_lr.jpg"><img class="webfeedsFeaturedVisual" src="http://manessinger.com/images/0600x0600/2016/20160925_085630_lr.jpg" /></a></div>
+</div>
+<br />
+
+The manual focus 25/0.95 Mitakon Speedmaster is a lens that feels and looks good on the PEN-F. I think in the meantime they sell it in silver as well, and that would be an even better match. The fate of the early adopter :)
+
+Of course in an image like this, any lens would do. Had I used the Olympus 25/1.8, I'd even be able to tell you the aperture I've used. Must have been around f2.8, I guess.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14903</wp:post_id>
+		<wp:post_date><![CDATA[2017-04-02 20:00:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-04-02 18:00:03]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[3817-the-garden]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="austria"><![CDATA[Austria]]></category>
+		<category domain="post_tag" nicename="kurpark-oberlaa"><![CDATA[Kurpark Oberlaa]]></category>
+		<category domain="category" nicename="mitakon-speedmaster-250-95"><![CDATA[Mitakon Speedmaster 25/0.95]]></category>
+		<category domain="post_tag" nicename="olympus-pen-f"><![CDATA[Olympus PEN-F]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_name]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.00]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_currency]]></wp:meta_key>
+			<wp:meta_value><![CDATA[USD]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_rating]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:4:"rate";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_reviewonoff]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:5:"onoff";s:3:"off";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>3818 - Out in the Garden, Reading</title>
+		<link>http://manessinger.com/2017/04/3818-out-in-the-garden-reading.html</link>
+		<pubDate>Mon, 03 Apr 2017 18:00:42 +0000</pubDate>
+		<dc:creator><![CDATA[amanessinger]]></dc:creator>
+		<guid isPermaLink="false">http://manessinger.com/?p=14908</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="container">
+<div class="center"><a target="_blank" href="http://manessinger.com/display.php/1024x1024/2016/20160925_171941_lr.jpg"><img class="webfeedsFeaturedVisual" src="http://manessinger.com/images/0600x0600/2016/20160925_171941_lr.jpg" /></a></div>
+</div>
+<br />
+
+A beautiful day in late September, people in a park, sitting in deck chairs, reading. No, it's not private property. Just a public park in Vienna :)]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14908</wp:post_id>
+		<wp:post_date><![CDATA[2017-04-03 20:00:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-04-03 18:00:42]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[3818-out-in-the-garden-reading]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="austria"><![CDATA[Austria]]></category>
+		<category domain="post_tag" nicename="kurpark-oberlaa"><![CDATA[Kurpark Oberlaa]]></category>
+		<category domain="category" nicename="mitakon-speedmaster-250-95"><![CDATA[Mitakon Speedmaster 25/0.95]]></category>
+		<category domain="post_tag" nicename="olympus-pen-f"><![CDATA[Olympus PEN-F]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_name]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.00]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_currency]]></wp:meta_key>
+			<wp:meta_value><![CDATA[USD]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_rating]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:4:"rate";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_reviewonoff]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:5:"onoff";s:3:"off";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>3819 - Garden Art</title>
+		<link>http://manessinger.com/2017/04/3819-garden-art.html</link>
+		<pubDate>Tue, 04 Apr 2017 18:00:01 +0000</pubDate>
+		<dc:creator><![CDATA[amanessinger]]></dc:creator>
+		<guid isPermaLink="false">http://manessinger.com/?p=14910</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="container">
+<div class="center"><a target="_blank" href="http://manessinger.com/display.php/1024x1024/2016/20160925_172345_lr.jpg"><img class="webfeedsFeaturedVisual" src="http://manessinger.com/images/0600x0600/2016/20160925_172345_lr.jpg" /></a></div>
+</div>
+<br />
+
+This is some art installation in the same park. Glass panes with white swirls etched into them, a few meters between the panes. While being close to one pane, I've manually focused on the next one.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14910</wp:post_id>
+		<wp:post_date><![CDATA[2017-04-04 20:00:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-04-04 18:00:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[3819-garden-art]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="austria"><![CDATA[Austria]]></category>
+		<category domain="post_tag" nicename="kurpark-oberlaa"><![CDATA[Kurpark Oberlaa]]></category>
+		<category domain="category" nicename="mitakon-speedmaster-250-95"><![CDATA[Mitakon Speedmaster 25/0.95]]></category>
+		<category domain="post_tag" nicename="olympus-pen-f"><![CDATA[Olympus PEN-F]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_name]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.00]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_currency]]></wp:meta_key>
+			<wp:meta_value><![CDATA[USD]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_rating]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:4:"rate";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_reviewonoff]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:5:"onoff";s:3:"off";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>3820 - Natural Art</title>
+		<link>http://manessinger.com/2017/04/3820-natural-art.html</link>
+		<pubDate>Wed, 05 Apr 2017 18:00:37 +0000</pubDate>
+		<dc:creator><![CDATA[amanessinger]]></dc:creator>
+		<guid isPermaLink="false">http://manessinger.com/?p=14912</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="container">
+<div class="center"><a target="_blank" href="http://manessinger.com/display.php/1024x1024/2016/20160925_172715_lr.jpg"><img class="webfeedsFeaturedVisual" src="http://manessinger.com/images/0600x0600/2016/20160925_172715_lr.jpg" /></a></div>
+</div>
+<br />
+
+I think we can agree that the Mitakon Speedmaster 25/0.95 is finally beginning to earn its money.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14912</wp:post_id>
+		<wp:post_date><![CDATA[2017-04-05 20:00:37]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-04-05 18:00:37]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[3820-natural-art]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="austria"><![CDATA[Austria]]></category>
+		<category domain="post_tag" nicename="kurpark-oberlaa"><![CDATA[Kurpark Oberlaa]]></category>
+		<category domain="category" nicename="mitakon-speedmaster-250-95"><![CDATA[Mitakon Speedmaster 25/0.95]]></category>
+		<category domain="post_tag" nicename="olympus-pen-f"><![CDATA[Olympus PEN-F]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_name]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.00]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_currency]]></wp:meta_key>
+			<wp:meta_value><![CDATA[USD]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_rating]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:4:"rate";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_reviewonoff]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:5:"onoff";s:3:"off";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>3821 - Spirals</title>
+		<link>http://manessinger.com/2017/04/3821-spirals.html</link>
+		<pubDate>Thu, 06 Apr 2017 18:00:27 +0000</pubDate>
+		<dc:creator><![CDATA[amanessinger]]></dc:creator>
+		<guid isPermaLink="false">http://manessinger.com/?p=14914</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="container">
+<div class="center"><a target="_blank" href="http://manessinger.com/display.php/1024x1024/2016/20160925_173107_lr.jpg"><img class="webfeedsFeaturedVisual" src="http://manessinger.com/images/0600x0600/2016/20160925_173107_lr.jpg" /></a></div>
+</div>
+<br />
+
+<a href="https://www.wien.gv.at/english/environment/parks/oberlaa.html" target="_blank">This park</a> is where the second Vienna International Garden Show took place in 1974. It has aged gracefully. Here's a detail of some stairs.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14914</wp:post_id>
+		<wp:post_date><![CDATA[2017-04-06 20:00:27]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-04-06 18:00:27]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[3821-spirals]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="austria"><![CDATA[Austria]]></category>
+		<category domain="post_tag" nicename="kurpark-oberlaa"><![CDATA[Kurpark Oberlaa]]></category>
+		<category domain="category" nicename="mitakon-speedmaster-250-95"><![CDATA[Mitakon Speedmaster 25/0.95]]></category>
+		<category domain="post_tag" nicename="olympus-pen-f"><![CDATA[Olympus PEN-F]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_name]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.00]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_currency]]></wp:meta_key>
+			<wp:meta_value><![CDATA[USD]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_rating]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:4:"rate";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_reviewonoff]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:5:"onoff";s:3:"off";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>3822 - Last Light Softly Glowing</title>
+		<link>http://manessinger.com/2017/04/3822-last-light-softly-glowing.html</link>
+		<pubDate>Fri, 07 Apr 2017 18:00:04 +0000</pubDate>
+		<dc:creator><![CDATA[amanessinger]]></dc:creator>
+		<guid isPermaLink="false">http://manessinger.com/?p=14916</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="container">
+<div class="center"><a target="_blank" href="http://manessinger.com/display.php/1024x1024/2016/20160925_173936_lr.jpg"><img class="webfeedsFeaturedVisual" src="http://manessinger.com/images/0600x0600/2016/20160925_173936_lr.jpg" /></a></div>
+</div>
+<br />
+
+In terms of bokeh, this is pretty much as creamy as it gets. In terms of DOF, this is pretty much as shallow as I can possibly want it :D]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14916</wp:post_id>
+		<wp:post_date><![CDATA[2017-04-07 20:00:04]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-04-07 18:00:04]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[3822-last-light-softly-glowing]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="austria"><![CDATA[Austria]]></category>
+		<category domain="post_tag" nicename="kurpark-oberlaa"><![CDATA[Kurpark Oberlaa]]></category>
+		<category domain="category" nicename="mitakon-speedmaster-250-95"><![CDATA[Mitakon Speedmaster 25/0.95]]></category>
+		<category domain="post_tag" nicename="olympus-pen-f"><![CDATA[Olympus PEN-F]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_name]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.00]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_currency]]></wp:meta_key>
+			<wp:meta_value><![CDATA[USD]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_rating]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:4:"rate";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_reviewonoff]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:5:"onoff";s:3:"off";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>3823 - The Path of Enlightenment</title>
+		<link>http://manessinger.com/2017/04/3823-the-path-of-enlightenment.html</link>
+		<pubDate>Sat, 08 Apr 2017 18:00:49 +0000</pubDate>
+		<dc:creator><![CDATA[amanessinger]]></dc:creator>
+		<guid isPermaLink="false">http://manessinger.com/?p=14918</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="container">
+<div class="center"><a target="_blank" href="http://manessinger.com/display.php/1024x1024/2016/20160925_174131_lr.jpg"><img class="webfeedsFeaturedVisual" src="http://manessinger.com/images/0600x0600/2016/20160925_174131_lr.jpg" /></a></div>
+</div>
+<br />
+
+Half a year has gone by since I took these images. I'm pretty thankful for my cache of pictures, because I hardly take images at all right now. Why? Stress, a transitional phase at work, and then I've got my Sony PS4 Pro, remember?
+
+I bought it for making first steps in VR, but in reality I have spent countless hours in "<a href="https://elderscrolls.bethesda.net/skyrim/" target="_blank">Skyrim</a>". Meet Astaroth, level 47 conjurer, Archmage of the College of Winterhold, Citizen of Whiterun and Solitude, Dragonborn :)
+
+I've played Skyrim's predecessors "<a href="https://elderscrolls.bethesda.net/morrowind/" target="_blank">Morrowind</a>" and "<a href="https://elderscrolls.bethesda.net/oblivion/" target="_blank">Oblivion</a>" on the PC, but at the time "Skyrim" came out six years ago, I didn't have a powerful enough graphics card. Today's "Special Edition" brings lots of new visual goodies, and on the PS4 Pro it runs buttery smooth in all its glory.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14918</wp:post_id>
+		<wp:post_date><![CDATA[2017-04-08 20:00:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-04-08 18:00:49]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[3823-the-path-of-enlightenment]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="austria"><![CDATA[Austria]]></category>
+		<category domain="post_tag" nicename="kurpark-oberlaa"><![CDATA[Kurpark Oberlaa]]></category>
+		<category domain="category" nicename="mitakon-speedmaster-250-95"><![CDATA[Mitakon Speedmaster 25/0.95]]></category>
+		<category domain="post_tag" nicename="olympus-pen-f"><![CDATA[Olympus PEN-F]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_name]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_product_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0.00]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_currency]]></wp:meta_key>
+			<wp:meta_value><![CDATA[USD]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_rating]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:4:"rate";s:1:"0";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[ipwp_reviewonoff]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:5:"onoff";s:3:"off";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>68013</wp:comment_id>
+			<wp:comment_author><![CDATA[joe xxxxxxx]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[joe.xxx@yyyyy.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[134.134.139.76]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2017-04-09 16:20:15]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2017-04-09 14:20:15]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I've succumbed to Destiny for the last 3 years, so I know how it goes.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[akismet_result]]></wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[akismet_history]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:2:{s:4:"time";d:1491747615.83338;s:5:"event";s:9:"check-ham";}]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>68014</wp:comment_id>
+			<wp:comment_author><![CDATA[andreas]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[xxx@yyyyy.com]]></wp:comment_author_email>
+			<wp:comment_author_url>http://manessinger.com/</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[31.12.5.184]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2017-04-09 19:43:43]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2017-04-09 17:43:43]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Destiny? Three years already?? Ouch!]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>68013</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[akismet_result]]></wp:meta_key>
+				<wp:meta_value><![CDATA[false]]></wp:meta_value>
+			</wp:commentmeta>
+			<wp:commentmeta>
+				<wp:meta_key><![CDATA[akismet_history]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:4:"time";d:1491759824.0331931;s:5:"event";s:9:"check-ham";s:4:"user";s:12:"amanessinger";}]]></wp:meta_value>
+			</wp:commentmeta>
+		</wp:comment>
+	</item>
+</channel>
+</rss>
