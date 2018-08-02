@@ -6,7 +6,7 @@ package main
 
 import (
 	"fmt"
-	p "github.com/amanessinger/wordpress-xml-to-hugo/pkg/parse"
+	c "github.com/amanessinger/wordpress-xml-to-hugo/pkg/converter"
 	"os"
 )
 
@@ -16,11 +16,13 @@ func main() {
 		os.Exit(1)
 	}
 	path := os.Args[1]
-	err, parsed := p.Parse(path)
+	err, parsed := c.Parse(path)
 	if err != nil {
 		fmt.Printf("Parse error: %q", err)
 		os.Exit(1)
 	}
+
+	c.Convert(parsed.Channel.Items)
 
 	fmt.Printf("parsed a file with %d items", len(parsed.Channel.Items))
 	os.Exit(0)
