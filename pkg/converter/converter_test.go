@@ -22,17 +22,18 @@ func TestMain(m *testing.M) {
 	os.Exit(m.Run())
 }
 
-func TestItemNumberCorrect(t *testing.T) {
+// PARSE TESTS - just to make sure parsing did no break due to changes in the imported project
+func TestParsedItemNumberCorrect(t *testing.T) {
 	want := 8
 	got := len(parsed.Channel.Items)
 	if got != want {
 		t.Errorf("Expected %d items, got %d", want, got)
 	}
-	fmt.Sprintf("Got %d items", got)
+	fmt.Printf("Got %d items\n", got)
 }
 
-func TestFirstItemIsNoPost(t *testing.T) {
-	if isApplicable(parsed.Channel.Items[0]) {
-		t.Errorf("Expected first Item to be a page, not a post")
+func TestParsedFirstItemIsNoPost(t *testing.T) {
+	if isPost(parsed.Channel.Items[0]) {
+		t.Errorf("Expected first It to be a page, not a post")
 	}
 }
