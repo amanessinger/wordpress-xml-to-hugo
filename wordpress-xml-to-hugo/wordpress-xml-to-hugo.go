@@ -38,7 +38,7 @@ func main() {
 
 	c.Convert(parsed.Channel.Items, targetBaseDir)
 
-	fmt.Printf("parsed a file with %d items", len(parsed.Channel.Items))
+	fmt.Printf("parsed and converted a file with %d items\n", len(parsed.Channel.Items))
 	os.Exit(0)
 }
 

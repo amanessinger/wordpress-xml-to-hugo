@@ -43,8 +43,10 @@ func Convert(items []wp.Item, targetBaseDir string) {
 // convert an item according to a template
 func convertItem(item wp.Item, t *template.Template, itemBaseDir string) error {
 	// make replacements
-	item.Link = UrlReplacer.Replace(item.Link)
-	item.Content = UrlReplacer.Replace(item.Content)
+	item.Title = TitleReplacer.Replace(item.Title)
+	item.Link = UrlReplacer2.Replace(item.Link)
+	item.Content = UrlReplacer1.Replace(item.Content)
+	item.Content = UrlReplacer2.Replace(item.Content)
 
 	// construct and make the target directory
 	targetPath := itemBaseDir
