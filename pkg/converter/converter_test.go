@@ -92,7 +92,7 @@ func TestHandleComments(t *testing.T) {
 	c_2_5.Id = 5
 	item.Comments = append(item.Comments, c_2_5)
 
-	if err := HandleComments("data/post/2018/09/1000-some-title", item, mockConvertComment); err != nil {
+	if err := HandleComments("comments/post/2018/09/1000-some-title", item, mockConvertComment); err != nil {
 		t.Errorf("%v", err)
 	}
 

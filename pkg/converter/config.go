@@ -24,30 +24,28 @@ tags: {{ range .Categories }}{{ if eq .Domain "post_tag" }}
 var PostTemplate = MakeParsedTemplate("post_template", PostTemplateSrc)
 
 // text/template for comments
-const CommentTemplateSrc = `---
-author: "{{ .Author }}"
-author_email: {{ .AuthorEmail }}
-author_url: {{ .AuthorUrl }}
-date: {{ .DateGmt }}
-indent_level: {{ .IndentLevel }}
----
-{{ .Content }}
+const CommentTemplateSrc = `{
+    "author": "{{ .Author }}",
+    "author_email": "{{ .AuthorEmail }}",
+    "author_url": "{{ .AuthorUrl }}",
+    "date": "{{ .DateGmt }}",
+    "indent_level": {{ .IndentLevel }},
+    "content": "{{ .Content }}"
+}
 `
 
 // parsed comment template
 var CommentTemplate = MakeParsedTemplate("comment_template", CommentTemplateSrc)
 
 // URL replacements pass 1. Can't do it in one pass because of overlap
-var UrlReplacements1 = []Replacement{
+var urlReplacements1 = []Replacement{
 	{"http://www.manessinger.com", "http://manessinger.com"},
 	{"href=\"manessinger", "href=\"http://manessinger"},
 }
-
-// ready to use replacer
-var UrlReplacer1 = MakeReplacer(UrlReplacements1...)
+var UrlReplacer1 = MakeReplacer(urlReplacements1...)
 
 // URL replacements pass 2
-var UrlReplacements2 = []Replacement{
+var urlReplacements2 = []Replacement{
 	// img src URLs
 	{"http://manessinger.com/images", "https://d25zfm9zpd7gm5.cloudfront.net"},
 	// img target URLs
@@ -57,15 +55,29 @@ var UrlReplacements2 = []Replacement{
 }
 
 // ready to use replacer
-var UrlReplacer2 = MakeReplacer(UrlReplacements2...)
+var UrlReplacer2 = MakeReplacer(urlReplacements2...)
 
-// Replacements in Title (because we quote it in FrontMatter)
-var TitleReplacements = []Replacement{
+// Replacements in Title and content of comments (because we quote it in FrontMatter)
+var quotesReplacements = []Replacement{
 	{"\"", "\\\""},
+	{"\n", "\\n"},
+	{"\t", " "},
 }
 
 // ready to use replacer
-var TitleReplacer = MakeReplacer(TitleReplacements...)
+var QuotesReplacer = MakeReplacer(quotesReplacements...)
+
+// Replacements in content of posts and comments
+var emojiReplacements = []Replacement{
+	{":)", "🙂"},
+	{":p", "😛"},
+	{":P", "😛"},
+	{":D", "😄"},
+	{":-\\", "😏"},
+}
+
+// ready to use replacer
+var EmojiReplacer = MakeReplacer(emojiReplacements...)
 
 // maybe not for everybody, but this author needs to be unified
 func FixCommentAuthor(comment wp.Comment) wp.Comment {

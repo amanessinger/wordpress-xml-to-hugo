@@ -25,7 +25,7 @@ func Parse(path string) (error, *wp.WpXml) {
 func Convert(items []wp.Item, targetBaseDir string) {
 
 	postBaseDir := CreateSubPath(targetBaseDir, "content/post")
-	commentBaseDir := CreateSubPath(targetBaseDir, "data/post")
+	commentBaseDir := CreateSubPath(targetBaseDir, "comments/post")
 
 	for _, item := range items {
 		if isPost(item) {
@@ -39,10 +39,11 @@ func Convert(items []wp.Item, targetBaseDir string) {
 // convert an item according to a template
 func convertItem(item wp.Item, itemBaseDir string, commentBaseDir string) error {
 	// make replacements
-	item.Title = TitleReplacer.Replace(item.Title)
+	item.Title = QuotesReplacer.Replace(item.Title)
 	item.Link = UrlReplacer2.Replace(item.Link)
 	item.Content = UrlReplacer1.Replace(item.Content)
 	item.Content = UrlReplacer2.Replace(item.Content)
+	item.Content = EmojiReplacer.Replace(item.Content)
 
 	// construct and make the target directory
 	targetPath := itemBaseDir
@@ -116,7 +117,7 @@ func GetCommentFileNameAndIndentLevel(repliesTo map[int]int, c wp.Comment, comme
 	}
 	commentFileName := commentDir +
 		string(filepath.Separator) +
-		fmt.Sprintf("comment%s.md", name)
+		fmt.Sprintf("comment%s.json", name)
 	return commentFileName, depth
 }
 
@@ -129,6 +130,8 @@ func convertComment(comment wp.Comment, commentFileName string, indentLevel int)
 	comment = FixCommentAuthor(comment)
 	comment.AuthorUrl = UrlReplacer1.Replace(comment.AuthorUrl)
 	comment.AuthorUrl = UrlReplacer2.Replace(comment.AuthorUrl)
+	comment.Content = QuotesReplacer.Replace(comment.Content)
+	comment.Content = EmojiReplacer.Replace(comment.Content)
 
 	// open comment file
 	f, err := os.OpenFile(commentFileName, os.O_RDWR|os.O_CREATE, 0644)
