@@ -62,3 +62,43 @@ func TestUrlReplacements(t *testing.T) {
 		t.Errorf("Result shouldn't contain manessinger.com\n\n%s", result)
 	}
 }
+
+func TestHandleComments(t *testing.T) {
+	item := wp.Item{}
+	item.Comments = []wp.Comment{}
+
+	c_0_1 := wp.Comment{}
+	c_0_1.Parent = 0
+	c_0_1.Id = 1
+	item.Comments = append(item.Comments, c_0_1)
+
+	c_0_2 := wp.Comment{}
+	c_0_2.Parent = 0
+	c_0_2.Id = 2
+	item.Comments = append(item.Comments, c_0_2)
+
+	c_1_3 := wp.Comment{}
+	c_1_3.Parent = 1
+	c_1_3.Id = 3
+	item.Comments = append(item.Comments, c_1_3)
+
+	c_3_4 := wp.Comment{}
+	c_3_4.Parent = 3
+	c_3_4.Id = 4
+	item.Comments = append(item.Comments, c_3_4)
+
+	c_2_5 := wp.Comment{}
+	c_2_5.Parent = 2
+	c_2_5.Id = 5
+	item.Comments = append(item.Comments, c_2_5)
+
+	if err := HandleComments("data/post/2018/09/1000-some-title", item, mockConvertComment); err != nil {
+		t.Errorf("%v", err)
+	}
+
+}
+
+func mockConvertComment(comment wp.Comment, commentFileName string, indentLevel int) error {
+	fmt.Printf("%d: indent: %d, %s\n", comment.Id, indentLevel, commentFileName)
+	return nil
+}
