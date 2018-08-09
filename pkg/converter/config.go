@@ -3,6 +3,7 @@ package converter
 
 import (
 	wp "github.com/amanessinger/wordpress-xml-go"
+	"regexp"
 	"strings"
 )
 
@@ -88,4 +89,11 @@ func FixCommentAuthor(comment wp.Comment) wp.Comment {
 		comment.AuthorUrl = "https://manessinger.com/"
 	}
 	return comment
+}
+
+// certainly not for everybody: eliminate Amazon ads embedded as iframes
+var amazonAdRegexp = regexp.MustCompile("<iframe [^>]+></iframe>")
+
+func EliminateAmazonAds(content string) string {
+	return string(amazonAdRegexp.ReplaceAllLiteral([]byte(content), []byte("")))
 }

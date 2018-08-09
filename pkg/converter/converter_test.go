@@ -92,13 +92,35 @@ func TestHandleComments(t *testing.T) {
 	c_2_5.Id = 5
 	item.Comments = append(item.Comments, c_2_5)
 
-	if err := HandleComments("comments/post/2018/09/1000-some-title", item, mockConvertComment); err != nil {
+	if err := HandleComments("comments/post/2018/09/1000-some-title", item,
+		func(comment wp.Comment, commentFileName string, indentLevel int) error {
+			fmt.Printf("%d: indent: %d, %s\n", comment.Id, indentLevel, commentFileName)
+			return nil
+		}); err != nil {
 		t.Errorf("%v", err)
 	}
 
 }
 
-func mockConvertComment(comment wp.Comment, commentFileName string, indentLevel int) error {
-	fmt.Printf("%d: indent: %d, %s\n", comment.Id, indentLevel, commentFileName)
-	return nil
+func TestEliminateAmazonAds(t *testing.T) {
+	in := `<div class="container">
+<div class="center"><a target="_blank" href="http://manessinger.com/display.php/1024x1024/2013/20131006_180455_lr.jpg"><img src="http://manessinger.com/images/0600x0600/2013/20131006_180455_lr.jpg" /></a></div>
+</div>
+<br />
+
+Here's another Underground image of one of Vienna's more interesting stations. It is at the crossing of two lines, one of them very deep under ground, because it also crosses below a canal.
+
+<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=000000&fc1=FFFFFF&lc1=99AADD&t=thedailphotof-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B001HDVGIY" style="margin: 0pt 0px 0pt 10px; float: right; width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe> The Song of the Day is "Bottom Below" from the 2008 album "Dirt Don't Hurt" by Holly Golightly &amp; The Brokeoffs. Hear it on <a href="http://www.youtube.com/watch?v=Kl5kZOHoJIg" target="_blank">YouTube</a>.`
+	expected := `<div class="container">
+<div class="center"><a target="_blank" href="http://manessinger.com/display.php/1024x1024/2013/20131006_180455_lr.jpg"><img src="http://manessinger.com/images/0600x0600/2013/20131006_180455_lr.jpg" /></a></div>
+</div>
+<br />
+
+Here's another Underground image of one of Vienna's more interesting stations. It is at the crossing of two lines, one of them very deep under ground, because it also crosses below a canal.
+
+ The Song of the Day is "Bottom Below" from the 2008 album "Dirt Don't Hurt" by Holly Golightly &amp; The Brokeoffs. Hear it on <a href="http://www.youtube.com/watch?v=Kl5kZOHoJIg" target="_blank">YouTube</a>.`
+	out := EliminateAmazonAds(in)
+	if out != expected {
+		t.Errorf("Expected [%s], got [%s]", expected, out)
+	}
 }

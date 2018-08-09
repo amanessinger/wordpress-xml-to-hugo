@@ -44,6 +44,7 @@ func convertItem(item wp.Item, itemBaseDir string, commentBaseDir string) error 
 	item.Content = UrlReplacer1.Replace(item.Content)
 	item.Content = UrlReplacer2.Replace(item.Content)
 	item.Content = EmojiReplacer.Replace(item.Content)
+	item.Content = EliminateAmazonAds(item.Content)
 
 	// construct and make the target directory
 	targetPath := itemBaseDir
@@ -57,7 +58,7 @@ func convertItem(item wp.Item, itemBaseDir string, commentBaseDir string) error 
 		string(filepath.Separator) + itemPath + ".md"
 
 	// open target file
-	f, err := os.OpenFile(itemFullPath, os.O_RDWR|os.O_CREATE, 0644)
+	f, err := os.OpenFile(itemFullPath, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0644)
 	if err != nil {
 		return err
 	}
@@ -134,7 +135,7 @@ func convertComment(comment wp.Comment, commentFileName string, indentLevel int)
 	comment.Content = EmojiReplacer.Replace(comment.Content)
 
 	// open comment file
-	f, err := os.OpenFile(commentFileName, os.O_RDWR|os.O_CREATE, 0644)
+	f, err := os.OpenFile(commentFileName, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0644)
 	if err != nil {
 		return err
 	}
