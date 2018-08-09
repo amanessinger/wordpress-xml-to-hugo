@@ -71,10 +71,15 @@ var QuotesReplacer = MakeReplacer(quotesReplacements...)
 // Replacements in content of posts and comments
 var emojiReplacements = []Replacement{
 	{":)", "🙂"},
+	{":(", "☹️"},
 	{":p", "😛"},
 	{":P", "😛"},
 	{":D", "😄"},
+	{";)", "😉"},
+	{":-)", "🙂"},
+	{":-(", "☹️"},
 	{":-\\", "😏"},
+	{":roll:", "🙄"},
 }
 
 // ready to use replacer
