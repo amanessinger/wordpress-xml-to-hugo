@@ -26,6 +26,7 @@ var PostTemplate = MakeParsedTemplate("post_template", PostTemplateSrc)
 
 // text/template for comments
 const CommentTemplateSrc = `{
+    "id": "{{ .Id }}",
     "author": "{{ .Author }}",
     "author_url": "{{ .AuthorUrl }}",
     "date": "{{ .DateGmt }}",
