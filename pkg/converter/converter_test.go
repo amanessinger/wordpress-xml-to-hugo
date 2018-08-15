@@ -2,7 +2,8 @@ package converter
 
 import (
 	"fmt"
-	wp "github.com/amanessinger/wordpress-xml-go"
+	"github.com/amanessinger/wordpress-xml-to-hugo/pkg/parser"
+	wp "github.com/amanessinger/wordpress-xml-to-hugo/pkg/parser"
 	"os"
 	"strings"
 	"testing"
@@ -16,7 +17,7 @@ var (
 
 // set up the global parsed export and run the tests
 func TestMain(m *testing.M) {
-	err, parsed = Parse("../../testdata/short.xml")
+	err, parsed = parser.Parse("../../testdata/short.xml")
 	if err != nil {
 		panic(fmt.Sprintf("Parse error: %q", err))
 	}

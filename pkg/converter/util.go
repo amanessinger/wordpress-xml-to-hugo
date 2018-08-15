@@ -3,7 +3,7 @@ package converter
 
 import (
 	"fmt"
-	"github.com/amanessinger/wordpress-xml-go"
+	wp "github.com/amanessinger/wordpress-xml-to-hugo/pkg/parser"
 	"os"
 	"path/filepath"
 	"strings"
@@ -11,7 +11,7 @@ import (
 )
 
 // true if item is a blog post
-func isPost(item wordpressxml.Item) bool {
+func isPost(item wp.Item) bool {
 	return item.PostType == "post"
 }
 

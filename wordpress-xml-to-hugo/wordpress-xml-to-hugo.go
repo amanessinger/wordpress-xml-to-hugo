@@ -5,6 +5,7 @@ package main
 import (
 	"fmt"
 	c "github.com/amanessinger/wordpress-xml-to-hugo/pkg/converter"
+	p "github.com/amanessinger/wordpress-xml-to-hugo/pkg/parser"
 	"os"
 )
 
@@ -30,7 +31,7 @@ func main() {
 		Usage()
 	}
 
-	err, parsed := c.Parse(inFilePath)
+	err, parsed := p.Parse(inFilePath)
 	if err != nil {
 		fmt.Printf("Parse error: %q", err)
 		Usage()

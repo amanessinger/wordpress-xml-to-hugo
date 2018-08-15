@@ -2,7 +2,7 @@
 package converter
 
 import (
-	wp "github.com/amanessinger/wordpress-xml-go"
+	wp "github.com/amanessinger/wordpress-xml-to-hugo/pkg/parser"
 	"regexp"
 	"strings"
 )

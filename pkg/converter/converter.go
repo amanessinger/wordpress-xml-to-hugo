@@ -3,23 +3,13 @@ package converter
 
 import (
 	// a fork of github.com/grokify/wordpress-xml-go with parsing of comments added
-	wp "github.com/amanessinger/wordpress-xml-go"
+	wp "github.com/amanessinger/wordpress-xml-to-hugo/pkg/parser"
 
 	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
 )
-
-// parse a WordPress XML export
-func Parse(path string) (error, *wp.WpXml) {
-	var wpXml = wp.NewWordpressXml()
-	var err = wpXml.ReadXml(path)
-	if err != nil {
-		return err, nil
-	}
-	return nil, &wpXml
-}
 
 // convert all items
 func Convert(items []wp.Item, targetBaseDir string) {
