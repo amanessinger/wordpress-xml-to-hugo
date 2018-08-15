@@ -14,8 +14,8 @@ import (
 // convert all items
 func Convert(items []wp.Item, targetBaseDir string) {
 
-	postBaseDir := CreateSubPath(targetBaseDir, "content/post")
-	commentBaseDir := CreateSubPath(targetBaseDir, "comments/post")
+	postBaseDir := CreateSubPath(targetBaseDir, filepath.Join("content", PostDirectoryContentSubPath))
+	commentBaseDir := CreateSubPath(targetBaseDir, filepath.Join("comments", PostDirectoryContentSubPath))
 
 	for _, item := range items {
 		if isPost(item) {

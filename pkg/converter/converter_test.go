@@ -5,6 +5,7 @@ import (
 	"github.com/amanessinger/wordpress-xml-to-hugo/pkg/parser"
 	wp "github.com/amanessinger/wordpress-xml-to-hugo/pkg/parser"
 	"os"
+	"path/filepath"
 	"strings"
 	"testing"
 )
@@ -93,7 +94,8 @@ func TestHandleComments(t *testing.T) {
 	c_2_5.Id = 5
 	item.Comments = append(item.Comments, c_2_5)
 
-	if err := HandleComments("comments/post/2018/09/1000-some-title", item,
+	if err := HandleComments(filepath.Join("comments", PostDirectoryContentSubPath, "2018", "09", "1000-some-title"),
+		item,
 		func(comment wp.Comment, commentFileName string, indentLevel int) error {
 			fmt.Printf("%d: indent: %d, %s\n", comment.Id, indentLevel, commentFileName)
 			return nil

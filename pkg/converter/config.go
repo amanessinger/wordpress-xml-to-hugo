@@ -7,6 +7,10 @@ import (
 	"strings"
 )
 
+// path under content where posts should be generated. "post" and "posts" are both common,
+// but the Hugo theme will expect one of them
+const PostDirectoryContentSubPath = "post"
+
 // text/template for posts
 const PostTemplateSrc = `---
 title: "{{ .Title }}"
